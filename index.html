@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>World Cup Countdown</title>
-  
+
   <!-- HTML -->
-  
+
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Raleway:wght@300&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <h1>WORLD CUP COUNTDOWN</h1>
-  <!-- Project -->
-  <script src="main.js"></script>
+  <div id="app">
+    <h1> COPA DO MUNDO QATAR 2022 </h1>
+    <p>A Copa do Mundo vai começar em:</p>
+    <div class="countdown-container">
+      <div class="days-container">
+        <div id="days"></div>
+        <div class="countType">DIAS</div>
+      </div>
+      <div class="hours-container">
+        <div id="hours"></div>
+        <div class="countType">HORAS</div>
+      </div>
+      <div class="minutes-container">
+        <div id="minutes"></div>
+        <div class="countType">MINUTOS</div>
+      </div>
+      <div class="seconds-container">
+        <div id="seconds"></div>
+        <div class="countType">SEGUNDOS</div>
+      </div>
+      <!-- Project -->
+      <script src="app.js"></script>
 </body>
+
 </html>

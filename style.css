@@ -1,0 +1,24 @@
+body {
+  font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.days-container,
+.hours-container,
+.minutes-container,
+.seconds-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 3em;
+  font-size: 1.4em;
+
+}
