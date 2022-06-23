@@ -22,3 +22,22 @@ font-family: 'Work Sans', sans-serif;
   font-size: 1.4em;
 
 }
+
+td{
+  border: solid 1px;
+  border-color: black;
+  width: 12em;
+}
+
+.groups-container {
+  padding: 0 10px 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.group {
+  padding: 10px 0px 10px 0px;
+}
+
