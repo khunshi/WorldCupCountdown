@@ -7,6 +7,24 @@ body {
   background-image: linear-gradient(to bottom right, #8E0B4B, #56042C);
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 10px 0px 10px;
+}
+
+.svg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+svg {
+  margin:5px;
+}
+
 .countdown-container {
   display: flex;
   flex-direction: row;
